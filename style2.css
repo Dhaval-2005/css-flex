@@ -1,0 +1,33 @@
+body {
+  background: #fff;
+}
+.flex_div {
+  display: flex;
+  border: 2px solid green;
+  margin: 30px auto;
+  height: 50vh;
+  align-items: baseline;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+.flex_item {
+  height: 100px;
+  width: auto;
+  background-color: gray;
+  color: #fff;
+  font-size: 22px;
+  border: 2px solid red;
+  margin: 5px;
+  flex-grow: 1;
+}
+.flex_item_1 {
+}
+.flex_item_2 {
+  margin-top: 10px;
+  padding-top: 30px;
+  flex-grow: 3;
+}
+.flex_item_3 {
+}
+.flex_item_4 {
+}
